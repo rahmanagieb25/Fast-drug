@@ -1,0 +1,49 @@
+.parent {
+    background-color: rgb(1, 84, 87);
+    /* height: 100px; */
+}
+
+.navbar {
+    /* display: inline-block; */
+    display: flex;
+    /* position: fixed; */
+    width: 100%;
+    line-height: 80px;
+    /* background: transparent; */
+}
+
+.mideam {
+    margin-left: 400px;
+    color: white;
+}
+
+.mideam .nav-item .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar .navbar-brand {
+    display: inline-block;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.dig {
+    border: solid;
+    margin-top: 5px;
+    height: 90%;
+    margin-left: 450px;
+    margin-right: 350px;
+    background: #252A34 url(../image/img4.jpg) no-repeat center center/cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}

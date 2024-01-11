@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap');
+.parent {
+    background-color: rgb(1, 84, 87);
+    /* height: 100px; */
+}
+
+.navbar {
+    /* display: inline-block; */
+    display: flex;
+    /* position: fixed; */
+    width: 100%;
+    line-height: 80px;
+    /* background: transparent; */
+}
+
+.mideam {
+    margin-left: 400px;
+    color: white;
+}
+
+.mideam .nav-item .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar .navbar-brand {
+    display: inline-block;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.detailes .title {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: nowrap;
+}
+
+.container .left {
+    margin-left: 200px;
+}
+
+.container .left .child {
+    margin-top: 10px;
+}
+
+.left .child a {
+    display: inline-block;
+    color: black;
+    margin-left: -40px;
+    text-decoration: none;
+}
+
+.left .child i {
+    padding-right: 10px;
+}
+
+.container .right {
+    margin-right: 200px;
+}
+
+.right .form {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.right .right-cont form .label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.right .right-cont form input {
+    display: block;
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+@media (max-width:1024px) {
+    .container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+    .container .right {
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+}
+
+.right .right-cont form textarea {
+    display: block;
+    width: 350px;
+    height: 100px;
+    padding-left: 10px;
+    font-size: 18px;
+}

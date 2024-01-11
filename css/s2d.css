@@ -1,0 +1,176 @@
+.parent {
+    background-color: rgb(87, 52, 1);
+    /* height: 100px; */
+}
+
+.navbar {
+    /* display: inline-block; */
+    display: flex;
+    /* position: fixed; */
+    width: 100%;
+    line-height: 80px;
+    /* background: transparent; */
+}
+
+.mideam {
+    margin-left: 400px;
+    color: white;
+}
+
+.mideam .nav-item .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar .navbar-brand {
+    display: inline-block;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+
+/* slider */
+
+.slider {
+    margin-bottom: 200px;
+}
+
+.slider .img {
+    position: relative;
+}
+
+.slider .img img {
+    /* box-sizing: border-box; */
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-blend-mode: color;
+}
+
+.slider .img .detiles {
+    position: absolute;
+    bottom: -80%;
+    left: 8%;
+    /* margin-bottom: 100px; */
+    /* transform: translate(30%); */
+}
+
+.slider .img .detiles .container .cont {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.slider .img .detiles .container .cont span {
+    font-size: 16px;
+    color: rgb(19, 19, 19);
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+
+.slider .img .detiles .container .cont h2 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.slider .img .detiles .container .cont h3 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.slider .img .detiles .container .cont p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: rgb(19, 19, 19);
+    /* margin-top: 20px; */
+}
+
+.slider .img .detiles .container .cont .empty {
+    margin-bottom: 50px;
+    color: rgb(19, 19, 19);
+    /* margin-top: 20px; */
+}
+
+@media (max-width:1280px) {
+    .slider .img .detiles {
+        position: absolute;
+        bottom: -80%;
+        /* left: 2%; */
+        margin-right: 40px;
+        /* margin-bottom: 100px; */
+        /* transform: translate(30%); */
+    }
+    .slider .img .detiles .container .cont h2 {
+        font-size: 35px;
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .slider .img .detiles .container .cont p {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: sans-serif, 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+        color: rgb(19, 19, 19);
+        /* margin-top: 20px; */
+    }
+    .slider .img .detiles .container .cont h3 {
+        font-size: 25px;
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:800px) {
+    .slider .img .detiles {
+        position: absolute;
+        bottom: -80%;
+        /* left: 2%; */
+        margin-right: 40px;
+        /* margin-bottom: 100px; */
+        /* transform: translate(30%); */
+    }
+    .slider .img .detiles .container .cont h2 {
+        font-size: 25px;
+        font-weight: 400;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .slider .img .detiles .container .cont p {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: sans-serif, 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+        color: rgb(19, 19, 19);
+        /* margin-top: 20px; */
+    }
+    .slider .img .detiles .container .cont h3 {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+}
